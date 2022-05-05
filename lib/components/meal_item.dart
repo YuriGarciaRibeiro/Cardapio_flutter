@@ -39,13 +39,64 @@ class MealItem extends StatelessWidget {
                     fit: BoxFit.cover,
                   ),
                 ),
-                Text(
-                  meal.title,
+                Positioned(
+                  bottom: 20,
+                  right: 10,
+                  child: Container(
+                    width: 300,
+                    color: Colors.black54,
+                    padding: const EdgeInsets.symmetric(
+                      vertical: 5,
+                      horizontal: 20,
+                    ),
+                    child: Text(
+                      meal.title,
+                      style: const TextStyle(
+                        fontSize: 26,
+                        color: Colors.white,
+                      ),
+                      softWrap: true,
+                      overflow: TextOverflow.fade,
+                    ),
+                  ),
                 )
               ],
             ),
-            const SizedBox(height: 10),
-            Container(),
+            Padding(
+              padding: const EdgeInsets.all(20),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Row(
+                    children: [
+                      const Icon(Icons.schedule),
+                      const SizedBox(width: 10),
+                      Text(
+                        '${meal.duration} min',
+                      )
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      const Icon(Icons.soup_kitchen_outlined),
+                      const SizedBox(width: 10),
+                      Text(
+                        meal.complexityText,
+                      )
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      const Icon(Icons.attach_money_rounded),
+                      const SizedBox(width: 10),
+                      Text(
+                        meal.costText,
+                      )
+                    ],
+                  )
+                ],
+              ),
+            ),
           ],
         ),
       ),
