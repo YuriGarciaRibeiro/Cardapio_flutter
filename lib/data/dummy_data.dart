@@ -7,12 +7,12 @@ import '../models/meal.dart';
 const DUMMY_CATEGORIES = [
   Category(
     id: 'c1',
-    title: 'Italiano',
+    title: 'Italian',
     color: Colors.purple,
   ),
   Category(
     id: 'c2',
-    title: 'Rápido & Fácil',
+    title: 'Quick & Easy',
     color: Colors.red,
   ),
   Category(
@@ -22,41 +22,40 @@ const DUMMY_CATEGORIES = [
   ),
   Category(
     id: 'c4',
-    title: 'Alemã',
+    title: 'German',
     color: Colors.deepPurple,
   ),
   Category(
     id: 'c5',
-    title: 'Leve & Saudável',
+    title: 'Light & Healthy',
     color: Colors.amber,
   ),
   Category(
     id: 'c6',
-    title: 'Exótica',
+    title: 'Exotic',
     color: Colors.green,
   ),
   Category(
     id: 'c7',
-    title: 'Café da Manhã',
+    title: 'Breakfast',
     color: Colors.lightBlue,
   ),
   Category(
     id: 'c8',
-    title: 'Asiática',
+    title: 'Asian',
     color: Colors.lightGreen,
   ),
   Category(
     id: 'c9',
-    title: 'Francesa',
+    title: 'French',
     color: Colors.pink,
   ),
   Category(
     id: 'c10',
-    title: 'Verão',
+    title: 'Summer',
     color: Colors.teal,
   ),
 ];
-
 
 const DUMMY_MEALS = [
   Meal(
