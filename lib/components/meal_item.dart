@@ -9,13 +9,26 @@ class MealItem extends StatelessWidget {
   });
 
   _selectmeal(BuildContext context) {
-    Navigator.of(context).pushNamed('/meal-detail', arguments: meal);
+    Navigator.of(context)
+        .pushNamed(
+      '/meal-detail',
+      arguments: meal,
+    )
+        .then(
+      (result) {
+        if (result != null) {
+          print('tem nada n');
+        } else {
+          print('O nome da refeição é $result');
+        }
+      },
+    );
   }
 
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: (){
+      onTap: () {
         _selectmeal(context);
       },
       borderRadius: BorderRadius.circular(15),
