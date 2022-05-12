@@ -12,4 +12,4 @@
 
 
 <h2 align="center">Funcionamento Geral</h2>
-<p align="center"><a href="" target="_blank"><img src="https://drive.google.com/uc?export=view&id=1VHrF47ZL4JiXdZOy9ywy1IFECyH_jYCv" width="300"></a></p>
+<p align="center"><a href="" target="_blank"><img src="https://drive.google.com/uc?export=view&id=1IyPwxEjnJvZ5EN9GIPvaYNa2k5FioCRA" width="300"></a></p>
