@@ -12,4 +12,4 @@
 
 
 <h2 align="center">Funcionamento Geral</h2>
-<iframe class="imgur-embed" width="100%" height="1600" frameborder="0" src="https://i.imgur.com/SByOwEJ.gifv#embed"></iframe>
+<p align="center"><a href="" target="_blank"><img src="https://i.imgur.com/SByOwEJ.gifv" width="300"></a></p>
